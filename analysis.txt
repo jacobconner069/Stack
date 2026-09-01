@@ -1,0 +1,7 @@
+My clear function simply calls the clear funtion of the adaptor class deque.
+
+The time complexity of the deque clear function is O(n)
+because it gets rid of each element in the deque individually.
+
+This means that the time complexity of the clear funtion in my stack class
+is O(n) as well because it is just one call of the deque clear function.
